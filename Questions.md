@@ -1,4 +1,4 @@
-[!When authenticating users sourced from an application, where could the authentication process take place?]
+[!When authenticating users sourced from an application, where could the authentication process take place?]-
 Within an external directory or within Okta.
 [!In Okta user profiles, you CANNOT modify any of the base attributes.]
 False
@@ -49,7 +49,10 @@ Okta hosted database encrypted with AES-256
 True
 [!Which claim is required for OIDC?]-
 openid
-[!What application types are supported by AIW?]- - SAML - OIDC - SWA
+[!What application types are supported by AIW?]- 
+- SAML 
+- OIDC 
+- SWA
 [!For more complex SWA apps or SAML 1.1 apps you would use a template instead of AIW]-
 TRUE
 [!Where can you find the IdP metadata for an Okta SAML app?]-
@@ -60,9 +63,9 @@ The Metadata URL under SAML 2.0
 [!SCIM is a standard Okta leverages to automatically exchange user identity info with a service provider]-
 True
 [!Which strategies are offered by Okta to perform provisioning operations on downstream applications?]- - API Based - Agent Based
-[!Who determines whether an applciation supports provisioning features?]-
+[!Who determines whether an application supports provisioning features?]-
 Application service provider
-[!When Okta Lifecycle Management (Provisioning) is enabled for a supproted app, all previsously assigned users are provisiong into the app]-
+[!When Okta Lifecycle Management (Provisioning) is enabled for a supported app, all previously assigned users are provisioning into the app]-
 False
 [!Okta User Profile starts with 31 attrs, 4 of which are required to create a new account in Okta]-
 True
@@ -74,15 +77,14 @@ False
 True
 [!How does Okta ThreatInsight work?]- - It helps protect customers from credential-based attacks - It monitors all authentications across Okta's network
 [!Default API rate limits may vary depending on the specific endpoint URI being accessed]-
-
-- True
-  [!What is the purpose of setting up Network Zones in Okta?]-
-  To create geographic restrictions for user access
+True
+[!What is the purpose of setting up Network Zones in Okta?]-
+ To create geographic restrictions for user access
   To control access to specific resources based on IP Address
   [!An IP Zone is used to define a range of gateway or proxy IPs while a Synamic Zone defines a zone by country region ASN or IP type?]-
-- True
-  [!Okta requires assurance levels are satisfied before it allows the end user to access an app. The Assurance levels are specified in]-
-  Global session policies
+ True
+[!Okta requires assurance levels are satisfied before it allows the end user to access an app. The Assurance levels are specified in]-
+ Global session policies
   Authentication policies
   [!Which is an example of authenitcator method with device bound and hardware protected characteristivs]-
   Okta Verify Push
